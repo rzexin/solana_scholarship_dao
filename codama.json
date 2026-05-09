@@ -1,0 +1,11 @@
+{
+  "idl": "./anchor/target/idl/scholarship_dao.json",
+  "scripts": {
+    "js": [
+      {
+        "from": "@codama/renderers-js",
+        "args": ["./app/generated/scholarship_dao"]
+      }
+    ]
+  }
+}

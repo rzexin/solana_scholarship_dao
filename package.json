@@ -1,0 +1,61 @@
+{
+  "name": "solana-scholarship-dao",
+  "description": "",
+  "keywords": [
+    "anchor",
+    "dao",
+    "kit",
+    "nextjs",
+    "react",
+    "scholarship",
+    "solana",
+    "solana-kit",
+    "tailwind",
+    "typescript"
+  ],
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "anchor-build": "cd anchor && anchor build",
+    "anchor-test": "cd anchor && anchor test --skip-deploy",
+    "build": "next build",
+    "ci": "pnpm run build && pnpm run lint && pnpm run format:check",
+    "codama:js": "codama run js",
+    "dev": "next dev",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint",
+    "setup": "pnpm run anchor-build && pnpm run codama:js",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@solana/kit": "^6.3.0",
+    "@solana/kit-client-rpc": "^0.7.0",
+    "@solana/kit-plugin-rpc": "^0.7.0",
+    "@solana/wallet-standard-features": "^1.3.0",
+    "@wallet-standard/app": "^1.1.0",
+    "@wallet-standard/base": "^1.1.0",
+    "@wallet-standard/features": "^1.1.0",
+    "next": "16.0.10",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "recharts": "^3.8.1",
+    "sonner": "^2.0.7",
+    "swr": "^2.2.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@codama/nodes-from-anchor": "^1.3.8",
+    "@codama/renderers-js": "^1.5.5",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "codama": "^1.5.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.10",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
