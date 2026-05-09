@@ -141,11 +141,11 @@ export default function HomePage() {
 
             <h1 className="font-display font-bold leading-[0.95] tracking-tight text-[clamp(2.6rem,6.6vw,5.5rem)]">
               <span className="block">
-                Community <span className="gradient-text">capital</span>
+                Pooled by <span className="gradient-text">donors</span>
                 <span className="text-foreground/30">.</span>
               </span>
               <span className="block">
-                Governed <span className="gradient-text">grants</span>
+                Voted by <span className="gradient-text">members</span>
                 <span className="text-foreground/30">.</span>
               </span>
               <span className="mt-3 block text-[clamp(0.95rem,1.6vw,1.35rem)] font-medium italic leading-snug tracking-tight text-foreground-muted">
@@ -154,11 +154,11 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-[15px] leading-[1.65] text-foreground-muted md:text-[17px]">
-              A full-stack governance layer for community-funded scholarships.
-              Configure voting period, quorum, and minimum contribution in one
-              form. Members deliberate, proposals finalize deterministically at
-              the deadline, and approved grants disburse automatically from a
-              program-derived treasury — no admin key required.
+              A full-stack protocol for community-funded scholarships. Donors
+              pool SOL into a program-derived treasury, members deliberate in
+              the open, and approved scholarships disburse automatically the
+              moment voting ends — no admin key, no middleman, nothing off-chain
+              to trust.
             </p>
 
             {/* Numbered protocol rules */}
